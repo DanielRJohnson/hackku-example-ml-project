@@ -45,12 +45,12 @@ function App() {
       <h2>I am not a web developer :)</h2>
 
 
-      Rainfall: <Slider value={sliderValues[0]} onChange={handleSliderChange(0)} min={0} max={371} />
-      Sunshine: <Slider value={sliderValues[1]} onChange={handleSliderChange(1)} min={0} max={14.5} />
-      Humidity9am: <Slider value={sliderValues[2]} onChange={handleSliderChange(2)} min={0} max={100} />
-      Humidity3pm: <Slider value={sliderValues[3]} onChange={handleSliderChange(3)} min={0} max={100} />
-      Cloud9am: <Slider value={sliderValues[4]} onChange={handleSliderChange(4)} min={0} max={9} />
-      Cloud3pm: <Slider value={sliderValues[5]} onChange={handleSliderChange(5)} min={0} max={9} />
+      Rainfall: <Slider value={sliderValues[0]} onChange={handleSliderChange(0)} min={0} max={371} valueLabelDisplay="auto"/>
+      Sunshine: <Slider value={sliderValues[1]} onChange={handleSliderChange(1)} min={0} max={14.5} valueLabelDisplay="auto"/>
+      Humidity9am: <Slider value={sliderValues[2]} onChange={handleSliderChange(2)} min={0} max={100} valueLabelDisplay="auto"/>
+      Humidity3pm: <Slider value={sliderValues[3]} onChange={handleSliderChange(3)} min={0} max={100} valueLabelDisplay="auto"/>
+      Cloud9am: <Slider value={sliderValues[4]} onChange={handleSliderChange(4)} min={0} max={9} valueLabelDisplay="auto"/>
+      Cloud3pm: <Slider value={sliderValues[5]} onChange={handleSliderChange(5)} min={0} max={9} valueLabelDisplay="auto"/>
 
       <hr/>
 
